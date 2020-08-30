@@ -23,3 +23,5 @@ rd .\%filename% /s/q  >nul 2>&1
 del /f/q %filename%.zip
 
 :notEmpty
+echo done.
+pause
